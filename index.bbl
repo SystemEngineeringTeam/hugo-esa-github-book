@@ -1,0 +1,62 @@
+\begin{thebibliography}{10}
+
+\bibitem{esaとは}
+Stock inc.
+\newblock
+  【画像あり】esa（エサ）とは｜使い方や料金、口コミ・評判も紹介！,
+  2023.
+\newblock https://www.stock-app.info/media/?p=37138.
+
+\bibitem{公式esaWeb}
+esa公式ページ.
+\newblock esa.io, 2023.
+\newblock https://esa.io/.
+
+\bibitem{hugoとは}
+SAKURA internet Inc.
+\newblock
+  静的サイトジェネレータ「hugo」と技術文書公開向けテーマ「docsy」でossサイトを作る,
+  2022.
+\newblock https://knowledge.sakura.ad.jp/22908/.
+
+\bibitem{hugo公式}
+hugo公式ページ.
+\newblock Hugo, 2023.
+\newblock https://gohugo.io/.
+
+\bibitem{githubAction}
+Inc. 2023~GitHub.
+\newblock Github actionsのドキュメント, 2022.
+\newblock https://docs.github.com/ja/actions.
+
+\bibitem{githubPages}
+Inc. 2023~GitHub.
+\newblock Github pages について, 2023.
+\newblock
+  https://docs.github.com/ja/pages/getting$\-$started$\-$with$\-$github$\-$pages/about$\-$github$\-$pages.
+
+\bibitem{cmsとは}
+Ltd. Hitachi~Solutions.
+\newblock
+  Cmsとは？初心者でもわかるcmsの基礎知識とメリット、導入事例,
+  2023.
+\newblock
+  https://www.hitachi$\-$solutions.co.jp/digitalmarketing/sp/column/cms$\_$vol01/.
+
+\bibitem{esaCMS}
+ryo$\_$kawamata.
+\newblock esa を cms に vuepress v2
+  で管理しやすいドキュメントサイトを作る, 2021.
+\newblock https://zenn.dev/ryo$\_$kawamata/articles/4bf52f97165058.
+
+\bibitem{esaCMSHeadless}
+nabinno.
+\newblock esaをheadless cmsとして使う, 2021.
+\newblock https://nabinno.github.io/posts/67.
+
+\bibitem{hugoYoutubeStudy}
+Envato Tuts+.
+\newblock Gettingstartedwithhugo|freecourse, 2021.
+\newblock https://youtu.be/hjD9jTi$\_$DQ4.
+
+\end{thebibliography}
