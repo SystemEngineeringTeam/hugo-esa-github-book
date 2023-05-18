@@ -20,9 +20,9 @@ hugoは静的なWebジェネレーターということで、軽く環境構築�
 
   \begin{shaded}
     \begin{verbatim}
-    git clone 自分のリポジトリのURL
+    $ git clone 自分のリポジトリのURL
 
-    cd クローンしたディレクトリ
+    $ cd クローンしたディレクトリ
     \end{verbatim}
   \end{shaded}
 
@@ -30,8 +30,9 @@ hugoは静的なWebジェネレーターということで、軽く環境構築�
 
   \begin{shaded}
     \begin{verbatim}
-    ❯ hugo new site hugo-demo -f yml
-    Congratulations! Your new Hugo site is created in /Users/k22120kk/Downloads/hugo-demo.
+    $ hugo new site hugo-demo -f yml
+    Congratulations! Your new Hugo site is created in 
+    /Users/k22120kk/Downloads/hugo-demo.
 
     Just a few more steps and you're ready to go:
 
@@ -75,7 +76,8 @@ hugoは静的なWebジェネレーターということで、軽く環境構築�
 
     \begin{shaded}
       \begin{verbatim}
-        git submodule add https://github.com/CaiJimmy/hugo-theme-stack/ themes/hugo-theme-stack
+        $ git submodule add https://github.com/CaiJimmy/hugo-theme-stack/
+        themes/hugo-theme-stack
       \end{verbatim}  
     \end{shaded}
 
@@ -83,7 +85,8 @@ hugoは静的なWebジェネレーターということで、軽く環境構築�
 
     \begin{shaded}
       \begin{verbatim}
-        git clone https://github.com/CaiJimmy/hugo-theme-stack/ themes/hugo-theme-stack
+        $ git clone https://github.com/CaiJimmy/hugo-theme-stack/
+        themes/hugo-theme-stack
       \end{verbatim}  
     \end{shaded}
     
@@ -111,12 +114,18 @@ hugoは静的なWebジェネレーターということで、軽く環境構築�
 
     \begin{shaded}
       \begin{verbatim}
-        ❯ hugo server
+        $ hugo server
         Start building sites … 
         hugo v0.108.0+extended darwin/arm64 BuildDate=unknown
-        WARN 2022/12/23 10:44:43 found no layout file for "HTML" for kind "taxonomy": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
-        WARN 2022/12/23 10:44:43 found no layout file for "HTML" for kind "home": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
-        WARN 2022/12/23 10:44:43 found no layout file for "HTML" for kind "taxonomy": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+        WARN 2022/12/23 10:44:43 found no layout file for "HTML" for kind
+         "taxonomy": You should create a template file which matches Hugo
+          Layouts Lookup Rules for this combination.
+        WARN 2022/12/23 10:44:43 found no layout file for "HTML" for kind
+         "home": You should create a template file which matches Hugo 
+         Layouts Lookup Rules for this combination.
+        WARN 2022/12/23 10:44:43 found no layout file for "HTML" for kind
+         "taxonomy": You should create a template file which matches Hugo
+          Layouts Lookup Rules for this combination.
 
                           | EN  
         -------------------+-----
@@ -130,12 +139,16 @@ hugoは静的なWebジェネレーターということで、軽く環境構築�
           Cleaned          |  0  
 
         Built in 6 ms
-        Watching for changes in /Users/k22120kk/Downloads/hugo-demo/{archetypes,assets,content,data,layouts,static}
-        Watching for config changes in /Users/k22120kk/Downloads/hugo-demo/config.yml
+        Watching for changes in /Users/k22120kk/Downloads/hugo-demo/
+        {archetypes,assets,content,data,layouts,static}
+        Watching for config changes in /Users/k22120kk/Downloads/
+        hugo-demo/config.yml
         Environment: "development"
         Serving pages from memory
-        Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
-        Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+        Running in Fast Render Mode. For full rebuilds on change: 
+        hugo server --disableFastRender
+        Web Server is available at http://localhost:1313/ 
+        (bind address 127.0.0.1)
         Press Ctrl+C to stop
       \end{verbatim}  
     \end{shaded}
